@@ -28,7 +28,15 @@ string status3(double r, double n, double m) {
 }
 
 int main() {
-    double nilM, nilB;
+    double nilM , nilB;
 
-    cout << "Masukan Nilai Matematika = ";
+cout << "Masukan Nilai Matematika = ";
+cin >> nilM;
+cout << "Masukan Nilai Bahasa inggris = ";
+cin >> nilB;
+
+cout << "Status Kelulusann : " << status(rerata(nilM, nilB));
+cout << "\nStatus Kelulusan ke 2 : " << status2(rerata(nilM, nilB), nilM);
+cout << "\nStatus Kelulusan ke 3 : " << status3(rerata(nilM, nilB), nilM, nilB);
+return 0;
 }
