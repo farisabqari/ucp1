@@ -32,8 +32,9 @@ int main() {
 
 cout << "Masukan Nilai Matematika = ";
 cin >> nilM;
-cout << "Masukan Nilai Bahasa inggris = ";
+cout << "Masukan Nilai Bahasa_iggris = ";
 cin >> nilB;
+
 
 
 cout << "Status Kelulusann : " << status(rerata(nilM, nilB));
