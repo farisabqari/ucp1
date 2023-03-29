@@ -20,7 +20,7 @@ string status2(double r, double n) {
         return "gagal";
 }
 
-string status3(double r, doublen, double m) {
+string status3(double r, double n, double m) {
     if (r >= 60 || n >= 70 && m >= 60)
         return "lulus";
     else
